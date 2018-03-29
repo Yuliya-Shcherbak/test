@@ -1,0 +1,4 @@
+.tasks-list {
+    max-height: 95vh;
+    overflow-y: auto;
+}

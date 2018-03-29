@@ -1,0 +1,19 @@
+<div class="panel panel-info ">
+    <div class="panel-heading">
+        <b>{{ taskItem.name }}</b>
+        <div class="pull-right">
+            <button type="button" class="btn btn-info btn-sm"
+                    (click)="deleteTask([taskItem.id])">
+                <span class="glyphicon glyphicon-trash"></span>
+            </button>
+        </div>
+    </div>
+    <div class="panel-body" styles="text-align:justify">
+        <div>Task description: {{ taskItem.description }}</div>
+        <div>Location: {{ taskItem.address}}</div>
+        </div>
+        <div class="panel-footer" style="min-height: 40px">
+             <div class="pull-left">Start: {{ taskItem.startDate | date :'shortDate' }}</div>
+            <div class="pull-right">Expires: {{ taskItem.endDate | date :'shortDate' }} </div>
+        </div>
+    </div>

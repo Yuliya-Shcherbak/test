@@ -1,0 +1,9 @@
+﻿.empty-task-list {    
+    background-color: ghostwhite;
+    vertical-align: middle;
+    height: 90vh;
+}
+h3 {
+    text-align: center;
+    min-height: 90vh;
+}

@@ -1,0 +1,21 @@
+.task-item {
+    overflow: auto;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.panel > .panel-body {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.panel > .panel-footer {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
